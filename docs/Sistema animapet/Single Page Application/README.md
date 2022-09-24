@@ -1,22 +1,22 @@
 # Single Page Application
 
-`\1 Internet Banking System\Single Page Application`
+`\Sistema animapet\Single Page Application`
 
 * [animapet](../../README.md)
-  * [1 Internet Banking System](../../1%20Internet%20Banking%20System/README.md)
-    * [API Application](../../1%20Internet%20Banking%20System/API%20Application/README.md)
-    * [**Single Page Application**](../../1%20Internet%20Banking%20System/Single%20Page%20Application/README.md)
-      * [Dynamic Diagram](../../1%20Internet%20Banking%20System/Single%20Page%20Application/Dynamic%20Diagram/README.md)
-      * [Extended Docs](../../1%20Internet%20Banking%20System/Single%20Page%20Application/Extended%20Docs/README.md)
-  * [2 Deployment](../../2%20Deployment/README.md)
+  * [Sistema animapet](../../Sistema%20animapet/README.md)
+    * [API Application](../../Sistema%20animapet/API%20Application/README.md)
+    * [Mobile App](../../Sistema%20animapet/Mobile%20App/README.md)
+    * [**Single Page Application**](../../Sistema%20animapet/Single%20Page%20Application/README.md)
+      * [Dynamic Diagram](../../Sistema%20animapet/Single%20Page%20Application/Dynamic%20Diagram/README.md)
+      * [Extended Docs](../../Sistema%20animapet/Single%20Page%20Application/Extended%20Docs/README.md)
 
 ---
 
-[1 Internet Banking System (up)](../../1%20Internet%20Banking%20System/README.md)
+[Sistema animapet (up)](../../Sistema%20animapet/README.md)
 
-- [Dynamic Diagram](../../1%20Internet%20Banking%20System/Single%20Page%20Application/Dynamic%20Diagram/README.md)
+- [Dynamic Diagram](../../Sistema%20animapet/Single%20Page%20Application/Dynamic%20Diagram/README.md)
 
-- [Extended Docs](../../1%20Internet%20Banking%20System/Single%20Page%20Application/Extended%20Docs/README.md)
+- [Extended Docs](../../Sistema%20animapet/Single%20Page%20Application/Extended%20Docs/README.md)
 
 ---
 
@@ -25,18 +25,15 @@
 [Download container diagram](container.svg ':ignore')
 
 **Level 3: Component diagram**
+Em seguida, você pode ampliar e decompor cada contêiner ainda mais para identificar os principais blocos de construção estruturais e suas interações.
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+O diagrama de Componentes mostra como um contêiner é composto por vários "componentes", o que são cada um desses componentes, suas responsabilidades e os detalhes de tecnologia/implementação.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Scope**: Um único contêiner.
 
-**Scope**: A single container.
+**Primary elements**:Componentes dentro do contêiner no escopo.
+**Supporting elements:**  Containers (dentro do sistema de software em escopo) mais pessoas e sistemas de software diretamente conectados aos componentes.
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+**Intended audience**: arquitetos e desenvolvedores de software.
 
-**Intended audience**: Software architects and developers.
-
-> Example of included local image
-
-![](2020-01-10-16-21-41.png)
+**Recomendado para a maioria das equipes :** Não, crie diagramas de componentes apenas se achar que eles agregam valor e considere automatizar sua criação para documentação de longa duração.
