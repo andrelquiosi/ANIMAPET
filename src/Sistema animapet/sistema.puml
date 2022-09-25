@@ -4,28 +4,30 @@
 LAYOUT_WITH_LEGEND()
 
 Person(pessoa, "Usuário do sistema", "Pessoa que tem o acesso ao sistema animapet.")
+
 System_Ext(es, "Sistema de E-mail", "Sistema interno de e-mail do Gmail.")
 System_Ext(spo, "Sistema de Denuncia", "Fornece API para denúncias.")
 System_Ext(pix, "Sistema de Pagamentos", "Fornece API para realização de recebimentos e realização de doações.")
-System_Boundary(ibs, "Sistema Animapet") {
-    ' System(sdi, "Sistema de Dispositivo Móvel", "Permite ao usuário visualizar e doar PETs, realizar denuncias e doações para o cuidado dos animais.")
-' System(swb, "Sistema WEB", "Permite ao usuário visualizar e doar PETs, realizar denuncias e doações para o cuidado dos animais.")
-    Container(wa, "Aplicação Web", "java e Spring Boot", "Entrega o conteúdo estático e o aplicativo de página única.")
-    Container(spa, "Single Page Application", "React", "Fornece toda a funcionalidade do sistema Animapet aos clientes por meio do navegador da web.")
-    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
-    Container(db, "Banco de Dados", "Banco de dados relacional", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    Container(api, "API Application", "java and String MVC", "Provides internet banking functionality via a JSON/HTTP API.")
 
-    Rel(api, es, "Sends e-mails", "SMTP")
-    Rel(api, mbs, "Uses", "XML/HTTPS")
-    Rel(api, db, "Reads & writes to", "JDBC")
-    Rel(wa, spa, "Delivers")
+System_Boundary(ibs, "Sistema Animapet") {
+
+    Container(wa, "Aplicação Web", "java e Spring Boot", "Entrega o conteúdo estático e o aplicativo de página única.")
+    Container(spa, "Single Page Application", "React", "Fornece toda a funcionalidade do sistema Animapet aos usuarios por meio do navegador da web.")
+    Container(ma, "Aplicativo Mobile", "Dart/Flutter", "Fornece um subconjunto limitado da funcionalidade do sistema Animapet para usuarios por meio de seu dispositivo móvel.")
+    Container(db, "Banco de Dados", "Banco de Dados MySQL", "Armazena informações de registro do usuário, credenciais de autenticação com hash, logs de acesso, etc.")
+    Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema Animapet via uma API JSON/HTTP.")
+
+    Rel(api, es, "Envia e-mails", "SMTP")
+    Rel(api, spo, "Uses", "JSON/HTTPS")
+    Rel(api, pix, "Uses", "JSON/HTTPS")
+    Rel(api, db, "Lê e Escreve em", "JDBC")
+    Rel(wa, spa, "Entrega")
     Rel(spa, api, "Usa", "JSON/HTTPS")
     Rel(ma, api, "Usa", "JSON/HTTPS")
 }
 
-Rel(pessoa, wa, "Uses", "HTTPS")
-Rel(pessoa, spa, "Uses")
-Rel(pessoa, ma, "Uses")
-Rel(es, pessoa, "Sends e-mails to")
+Rel(pessoa, wa, "Usa", "HTTPS")
+Rel(pessoa, spa, "Usa")
+Rel(pessoa, ma, "Usa")
+Rel(es, pessoa, "Envia e-mails para")
 @enduml
