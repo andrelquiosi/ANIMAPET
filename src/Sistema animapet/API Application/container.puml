@@ -1,17 +1,19 @@
-@startuml
+@startuml ComponenteAPI
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
 
-Container(spa, "Single Page Application", "javascript and react", "Provides all the internet banking functionality to customers via their web browser.")
-Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
-Container(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+Container(swb, "Aplicação de Página Única", "Typescript e REACT","Disponibiliza todos os serviços disponíveis da ONG para o usuário através de um  sítio web.")
+Container(sdm, "Aplicativo Móvel", "Dart e Flutter", "Disponibiliza todos os serviços disponíveis da ONG para o usuário atráves de um aplicativo móvel.")
+Container(db, "Banco de Dados", "Esquema de Banco de Dados Relacional", "Armazena informações importantes do sistema, como dados de usuários, dados de PETS, logs do sistema, etc.")
+System_Ext(pix, "Sistema de Pagamentos", "Responsável por realizar transações monetárias")
+System_Ext(sem, "Sistema de E-mails", "Responsável por enviar e receber e-mails")
+System_Ext(spo, "Sistema de Denuncia", "Responsável por enviar e receber e-mails")
 
-Container_Boundary(api, "API Application") {
-    Component(sign, "Sign In Controller", "MVC Rest Controlle", "Allows users to sign in to the internet banking system")
-    Component(accounts, "Accounts Summary Controller", "MVC Rest Controlle", "Provides customers with a summory of their bank accounts")
-    Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+Container_Boundary(ong, "Sistema ONG") {
+    Component(sign, "Controle Login", "Controle Rest MVC", "Realiza a autenticação do usuário.")
+    Component(accounts, "Controle Usuário", "Controle Rest MVC", "Responde a interações do usuário")
+    Component(security, "Componente de Segurança", "Spring", "Disponibiliza funções relacionada a segurança.")
     Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
 
     Rel(sign, security, "Uses")
