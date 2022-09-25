@@ -3,5 +3,16 @@
 
 LAYOUT_WITH_LEGEND()
 
+Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema animapet via uma API JSON/HTTPS.")
+
+Container_Boundary(spa, "Single Page Application") {
+    Component(login, "Tela de Login", "Flutter Widget", "A tela onde o usuario faz o login")
+    Component(adocao, "Tela de Anúncios", "Flutter Widget", "A tela onde são listados os animais para adoção")
+    Component(criacao, "Tela de Criação de Anúncios", "Flutter Widget", "A tela onde os anúncios de adoção são criados")
+    Component(detalhes, "Tela de Detalhes de Anúncios", "Flutter Widget", "A tela onde é possível visualizar detalhes de um anúncio específico")
+    Component(chat, "Tela de Chat", "Flutter Widget", "A tela onde o anunciante e o adotante podem conversar")
+}
+
+Rel(spa, api, "Uses", "JSON/HTTPS")
 
 @enduml
