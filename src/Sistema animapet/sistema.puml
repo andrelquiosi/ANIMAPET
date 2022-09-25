@@ -1,0 +1,31 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(pessoa, "Usuário do sistema", "Pessoa que tem o acesso ao sistema animapet.")
+System_Ext(es, "Sistema de E-mail", "Sistema interno de e-mail do Gmail.")
+System_Ext(spo, "Sistema de Denuncia", "Fornece API para denúncias.")
+System_Ext(pix, "Sistema de Pagamentos", "Fornece API para realização de recebimentos e realização de doações.")
+System_Boundary(ibs, "Sistema Animapet") {
+    ' System(sdi, "Sistema de Dispositivo Móvel", "Permite ao usuário visualizar e doar PETs, realizar denuncias e doações para o cuidado dos animais.")
+' System(swb, "Sistema WEB", "Permite ao usuário visualizar e doar PETs, realizar denuncias e doações para o cuidado dos animais.")
+    Container(wa, "Aplicação Web", "java e Spring Boot", "Entrega o conteúdo estático e o aplicativo de página única.")
+    Container(spa, "Single Page Application", "React", "Fornece toda a funcionalidade do sistema Animapet aos clientes por meio do navegador da web.")
+    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
+    Container(db, "Banco de Dados", "Banco de dados relacional", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+    Container(api, "API Application", "java and String MVC", "Provides internet banking functionality via a JSON/HTTP API.")
+
+    Rel(api, es, "Sends e-mails", "SMTP")
+    Rel(api, mbs, "Uses", "XML/HTTPS")
+    Rel(api, db, "Reads & writes to", "JDBC")
+    Rel(wa, spa, "Delivers")
+    Rel(spa, api, "Usa", "JSON/HTTPS")
+    Rel(ma, api, "Usa", "JSON/HTTPS")
+}
+
+Rel(pessoa, wa, "Uses", "HTTPS")
+Rel(pessoa, spa, "Uses")
+Rel(pessoa, ma, "Uses")
+Rel(es, pessoa, "Sends e-mails to")
+@enduml
