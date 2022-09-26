@@ -3,19 +3,23 @@
 
 LAYOUT_WITH_LEGEND()
 
-Container(api, "API Application", "java and Spring MVC", "Delivers the static content and the internet banking single page application.")
+Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema Animapet via uma API JSON/HTTPS.")
 
 Container_Boundary(spa, "Single Page Application") {
-    Component(routing, "Routing", "React router", "Handler slient side routing")
-    Component(store, "Data Store", "Redux", "The central object holding the application state")
-    Component(login, "Login form", "React Class", "The login page")
-    Component(profile, "Profile Page", "React Class", "The page where the logged in user can view and edit his/her information")
+    Component(login, "Formulário de Login", "React Functional Component", "Formulário onde o usuario faz o login")
+    Component(adocao, "Tela de Anúncios", "React Functional Component", "A tela onde são listados os animais para adoção")
+    Component(criacao, "Tela de Criação de Anúncios", "React Functional Component", "A tela onde os anúncios de adoção são criados")
+    Component(detalhes, "Tela de Detalhes de Anúncios", "React Functional Component", "A tela onde é possível visualizar detalhes de um anúncio específico")
+    Component(chat, "Tela de Chat", "React Functional Component", "A tela onde o anunciante e o adotante podem conversar")
+    Component(routing, "Routing", "React Router", "Gerencia o roteamento no lado do cliente")
 }
 
-Rel(spa, api, "Uses", "JSON/HTTPS")
+Rel(spa, api, "Usa", "JSON/HTTPS")
 
-Rel(login, store, "Uses");
-Rel(routing, store, "Uses");
-Rel(profile, store, "Uses");
+Rel(login, routing, "Usa");
+Rel(adocao, routing, "Usa");
+Rel(criacao, routing, "Usa");
+Rel(detalhes, routing, "Usa");
+Rel(chat, routing, "Usa");
 
 @enduml
