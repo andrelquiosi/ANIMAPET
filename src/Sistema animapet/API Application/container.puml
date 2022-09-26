@@ -1,30 +1,38 @@
-@startuml ComponenteAPI
+@startuml Container
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
 LAYOUT_WITH_LEGEND()
 
-Container(swb, "Aplicação de Página Única", "Typescript e REACT","Disponibiliza todos os serviços disponíveis da ONG para o usuário através de um  sítio web.")
-Container(sdm, "Aplicativo Móvel", "Dart e Flutter", "Disponibiliza todos os serviços disponíveis da ONG para o usuário atráves de um aplicativo móvel.")
-Container(db, "Banco de Dados", "Esquema de Banco de Dados Relacional", "Armazena informações importantes do sistema, como dados de usuários, dados de PETS, logs do sistema, etc.")
-System_Ext(pix, "Sistema de Pagamentos", "Responsável por realizar transações monetárias")
-System_Ext(sem, "Sistema de E-mails", "Responsável por enviar e receber e-mails")
-System_Ext(spo, "Sistema de Denuncia", "Responsável por enviar e receber e-mails")
+Container(site, "Aplicação de Página Única", "Typescript e REACT","Disponibiliza todos os serviços disponíveis da ONG para o usuário através de um  sítio web.")
+Container(mobile, "Aplicativo Móvel", "Dart e Flutter", "Disponibiliza todos os serviços disponíveis da ONG para o usuário atráves de um aplicativo móvel.")
+Container(database, "Banco de Dados", "Esquema de Banco de Dados Relacional", "Armazena informações importantes do sistema, como dados de usuários, dados de PETS, logs do sistema, etc.")
+
+System_Ext(financeiro, "Sistema de Pagamentos", "Responsável por realizar transações monetárias")
+System_Ext(email, "Sistema de E-mails", "Responsável por enviar e receber e-mails")
+System_Ext(denuncia, "Sistema de Denuncia", "Responsável por enviar e receber e-mails")
 
 Container_Boundary(ong, "Sistema ONG") {
-    Component(sign, "Controle Login", "Controle Rest MVC", "Realiza a autenticação do usuário.")
-    Component(accounts, "Controle Usuário", "Controle Rest MVC", "Responde a interações do usuário")
-    Component(security, "Componente de Segurança", "Spring", "Disponibiliza funções relacionada a segurança.")
-    Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+    Component(login, "Controle Login", "Controle Rest MVC", "Realiza a autenticação do usuário.")
+    Component(contas, "Controle Usuário", "Controle Rest MVC", "Responde a interações do usuário")
+    Component(seguranca, "Componente de Segurança", "Spring", "Disponibiliza funções relacionada a segurança.")
+    Component(financeiro_facade, "Facade do Sistema de Pagamentos", "Spring Bean", "Uma facade para o sistema de pagamentos.")
+    Component(email_facade, "Facade do Sistema de Email", "Spring Bean", "Uma facade para o sistema de email.")
+    Component(denuncia_facade, "Facade do Sistema de denuncia", "Spring Bean", "Uma facade para o sistema de deuncias.")
 
-    Rel(sign, security, "Uses")
-    Rel(accounts, mbsfacade, "Uses")
-    Rel(security, db, "Read & write to", "JDBC")
-    Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
+
+    Rel(login, seguranca, "Usa")
+    Rel(contas, financeiro_facade, "Usa")
+    Rel(contas, email_facade, "Usa")
+    Rel(contas, denuncia_facade, "Usa")
+    Rel(financeiro_facade, financeiro, "Usa", "JSON/HTTPS")
+    Rel(email_facade, email, "Usa", "JSON/HTTPS")
+    Rel(denuncia_facade, denuncia, "Usa", "JSON/HTTPS")
 }
 
-Rel(spa, sign, "Uses", "JSON/HTTPS")
-Rel(spa, accounts, "Uses", "JSON/HTTPS")
 
-Rel(ma, sign, "Uses", "JSON/HTTPS")
-Rel(ma, accounts, "Uses", "JSON/HTTPS")
+Rel(seguranca, database, "Lê & Escreve em", "JPA")
+Rel(site, login, "Usa", "JSON/HTTPS")
+Rel(site, contas, "Usa", "JSON/HTTPS")
+Rel(mobile, login, "Usa", "JSON/HTTPS")
+Rel(mobile, contas, "Usa", "JSON/HTTPS")
 @enduml
