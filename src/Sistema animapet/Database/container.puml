@@ -10,9 +10,9 @@ System_Boundary(alias, "Banco de Dados"){
     Component(dados, "Tabelas", "dados")
     Component(imagens, "Imagens", "JPG")
 
-Rel(sgdb, dados, "Manipula")
-Rel(dados,imagens,"tem uma Referencia")
+    Rel(sgdb, dados, "Manipula")
+    Rel(dados,imagens,"tem uma Referencia")
 }
-Rel(api, sgdb, "SQL")
-Rel(sgdb, api, "JSON")
+Rel(api, sgdb, "JPA")
+
 @enduml
