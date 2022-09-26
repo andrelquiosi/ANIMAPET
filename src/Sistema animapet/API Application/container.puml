@@ -5,7 +5,7 @@ LAYOUT_WITH_LEGEND()
 
 Container(site, "Aplicação de Página Única", "Typescript e REACT","Disponibiliza todos os serviços disponíveis da ONG para o usuário através de um  sítio web.")
 Container(mobile, "Aplicativo Móvel", "Dart e Flutter", "Disponibiliza todos os serviços disponíveis da ONG para o usuário atráves de um aplicativo móvel.")
-Container(database, "Banco de Dados", "Esquema de Banco de Dados Relacional", "Armazena informações importantes do sistema, como dados de usuários, dados de PETS, logs do sistema, etc.")
+ContainerDb(database, "Banco de Dados", "Esquema de Banco de Dados Relacional", "Armazena informações importantes do sistema, como dados de usuários, dados de PETS, logs do sistema, etc.")
 
 System_Ext(financeiro, "Sistema de Pagamentos", "Responsável por realizar transações monetárias")
 System_Ext(email, "Sistema de E-mails", "Responsável por enviar e receber e-mails")
