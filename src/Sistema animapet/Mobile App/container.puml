@@ -3,7 +3,7 @@
 
 LAYOUT_WITH_LEGEND()
 
-Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema animapet via uma API JSON/HTTPS.")
+Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema Animapet via uma API JSON/HTTPS.")
 
 Container_Boundary(mobile, "Aplicativo Mobile") {
     Component(login, "Tela de Login", "Flutter Widget", "A tela onde o usuario faz o login")
