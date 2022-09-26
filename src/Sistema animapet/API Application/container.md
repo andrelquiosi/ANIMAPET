@@ -1,12 +1,13 @@
 **Level 3: Component diagram**
+Em seguida, você pode ampliar e decompor cada contêiner ainda mais para identificar os principais blocos de construção estruturais e suas interações.
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+O diagrama de Componentes mostra como um contêiner é composto por vários "componentes", o que são cada um desses componentes, suas responsabilidades e os detalhes de tecnologia/implementação.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Scope**: Um único contêiner.
 
-**Scope**: A single container.
+**Primary elements**:Componentes dentro do contêiner no escopo.
+**Supporting elements:**  Containers (dentro do sistema de software em escopo) mais pessoas e sistemas de software diretamente conectados aos componentes.
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+**Intended audience**: arquitetos e desenvolvedores de software.
 
-**Intended audience**: Software architects and developers.
+**Recomendado para a maioria das equipes :** Não, crie diagramas de componentes apenas se achar que eles agregam valor e considere automatizar sua criação para documentação de longa duração.

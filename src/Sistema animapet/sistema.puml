@@ -1,4 +1,4 @@
-@startuml
+@startuml Containers
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
@@ -16,6 +16,7 @@ System_Boundary(ibs, "Sistema Animapet") {
     Container(ma, "Aplicativo Mobile", "Dart/Flutter", "Fornece um subconjunto limitado da funcionalidade do sistema Animapet para usuarios por meio de seu dispositivo móvel.")
     ContainerDb(db, "Banco de Dados", "Banco de Dados MySQL", "Armazena informações de registro do usuário, credenciais de autenticação com hash, logs de acesso, etc.")
     Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema Animapet via uma API JSON/HTTP.")
+    ContainerDb(db, "Banco de Dados", "Banco de Dados MySQL", "Armazena informações de registro do usuário, credenciais de autenticação com hash, logs de acesso, etc.")
 
     Rel(api, es, "Envia e-mails", "SMTP")
     Rel(api, spo, "Uses", "JSON/HTTPS")
