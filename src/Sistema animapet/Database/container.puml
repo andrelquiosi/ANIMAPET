@@ -3,5 +3,16 @@
 
 LAYOUT_WITH_LEGEND()
 
+Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema animapet via uma API JSON/HTTPS.")
 
+System_Boundary(alias, "Banco de Dados"){
+    Component(sgdb, "SGDB", "Sistema Gerenciador de Banco de Dados")
+    Component(dados, "Tabelas", "dados")
+    Component(imagens, "Imagens", "JPG")
+
+Rel(sgdb, dados, "Manipula")
+Rel(dados,imagens,"tem uma Referencia")
+}
+Rel(api, sgdb, "SQL")
+Rel(sgdb, api, "JSON")
 @enduml

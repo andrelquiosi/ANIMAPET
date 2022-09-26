@@ -14,7 +14,7 @@ System_Boundary(ibs, "Sistema Animapet") {
     Container(wa, "Aplicação Web", "java e Spring Boot", "Entrega o conteúdo estático e o aplicativo de página única.")
     Container(spa, "Single Page Application", "React", "Fornece toda a funcionalidade do sistema Animapet aos usuarios por meio do navegador da web.")
     Container(ma, "Aplicativo Mobile", "Dart/Flutter", "Fornece um subconjunto limitado da funcionalidade do sistema Animapet para usuarios por meio de seu dispositivo móvel.")
-    Container(db, "Banco de Dados", "Banco de Dados MySQL", "Armazena informações de registro do usuário, credenciais de autenticação com hash, logs de acesso, etc.")
+    ContainerDb(db, "Banco de Dados", "Banco de Dados MySQL", "Armazena informações de registro do usuário, credenciais de autenticação com hash, logs de acesso, etc.")
     Container(api, "API Application", "java e Spring MVC", "Fornece as funcionalidades do sistema Animapet via uma API JSON/HTTP.")
 
     Rel(api, es, "Envia e-mails", "SMTP")
