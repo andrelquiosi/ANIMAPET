@@ -1,0 +1,49 @@
+@startuml Context de Doação/Auxílio
+
+left to right direction
+
+actor "Atendente ONG" as ong
+actor "Doador" as doador
+actor "Destinatário" as dest
+
+package "Doação/Auxílio" {
+    usecase "Visualizar solicitações\nde doação" as ucVSD
+    usecase "Realizar doação" as ucRD
+    
+    usecase "Abrir solicitação de doação" as ucASD
+    usecase "Solicitar doação monetária" as ucSDM
+    usecase "Solicitar doação de produto" as ucSDP
+    usecase "Solicitar doação alimentícia" as ucSDA
+    usecase "Escolher forma de entrega" as ucEFE
+
+    usecase "Avaliar solicitação" as ucAS
+    usecase "Liberar solicitação" as ucLS
+    usecase "Rejeitar solicitação" as ucRS
+
+    usecase "Confirmar recebimento\nde doação" as ucCRD
+    usecase "Encerrar solicitação" as ucES
+    
+    ucVSD <.. ucRD : << extend >>
+
+    ucEFE <.. ucASD : << include >>
+    ucSDM ..> ucASD : << extend >>
+    ucSDP ..> ucASD : << extend >>
+    ucSDA ..> ucASD : << extend >>
+
+    ucAS -left- ucASD
+
+    ucLS ..> ucAS : << extend >>
+    ucRS .right.> ucAS : << extend >>
+
+    ucRS .left.> ucES : << include >>
+    ucRD -- ucCRD
+    ucCRD ..> ucES : << include >>
+}
+
+doador --- ucVSD
+
+ucCRD --- ong
+ucAS --- ong
+ucASD --- dest
+
+@enduml
