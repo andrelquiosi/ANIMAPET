@@ -1,0 +1,25 @@
+@startuml UCCuidados
+left to right direction
+
+actor Veterinário as vet
+actor Pessoa as pessoa
+
+package Cuidados {
+
+  usecase "Solicitar Consulta para PET" as ucSCP
+  usecase "Visualizar Solicitação" as ucVS
+  usecase "Agendar consultas" as ucAC
+  usecase "Buscar informações de PET" as ucBIP
+  usecase "Solicitar Alteração de Data/Hora" as ucSAD
+  usecase "Cancelar Consulta" as ucCC
+  
+}
+
+vet -- ucVS
+ucVS <-- ucAC : << extends >>
+ucAC <.. ucBIP : << include >>
+pessoa -- ucSCP
+ucSCP <-- ucSAD : << extends >>
+ucSCP <-- ucCC : << extends >>
+
+@enduml
