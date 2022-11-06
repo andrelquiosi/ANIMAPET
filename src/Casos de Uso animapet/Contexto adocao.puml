@@ -1,0 +1,43 @@
+@startuml denúncia
+
+left to right direction
+
+actor "Adotante" as adotante
+actor "Doador" as doador
+actor "Atendente" as atendente
+
+
+package "ANIMAPET - Adoção" {
+
+    usecase "Visualizar pet \npara adoção" as visualizar
+    usecase "Reservar Pet" as reservar
+    usecase "Ofertar Pet" as ofertar
+
+    usecase "Avaliar Oferta" as avaliar_oferta
+    usecase "Documentar Adoção" as documentar
+    usecase "Cadastrar Pet" as cadatro_pet
+    usecase "Visualizar Reservas" as visualizar_reservas
+    usecase "Consultar Pet" as consultar
+
+
+    visualizar <.. reservar : << extends >>
+    documentar ..> consultar : << extends >>
+    ofertar ..> avaliar_oferta : << include >>
+
+    
+
+
+}
+
+adotante -- visualizar
+doador -- ofertar
+atendente -up- avaliar_oferta
+atendente -do- cadatro_pet
+atendente -down- documentar
+atendente -down- visualizar_reservas
+
+
+
+
+
+@enduml
