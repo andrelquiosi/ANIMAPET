@@ -7,7 +7,6 @@
     * [Database](Sistema%20animapet/Database/README.md)
     * [Mobile App](Sistema%20animapet/Mobile%20App/README.md)
     * [Single Page Application](Sistema%20animapet/Single%20Page%20Application/README.md)
-    * [Web Application](Sistema%20animapet/Web%20Application/README.md)
 
 ---
 
