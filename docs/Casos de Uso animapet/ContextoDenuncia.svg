@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="443px" preserveAspectRatio="none" style="width:723px;height:443px;background:#FFFFFF;" version="1.1" viewBox="0 0 723 443" width="723px" zoomAndPan="magnify"><defs/><g><!--MD5=[b9be2ea5e4fdfd1392af596aa906928b]
+cluster ANIMAPET - Denúncia--><g id="cluster_ANIMAPET - Denúncia"><path d="M164.5,13.96 L333.5,13.96 A3.75,3.75 0 0 1 336,16.46 L343,36.2569 L713.5,36.2569 A2.5,2.5 0 0 1 716,38.7569 L716,343.46 A2.5,2.5 0 0 1 713.5,345.96 L164.5,345.96 A2.5,2.5 0 0 1 162,343.46 L162,16.46 A2.5,2.5 0 0 1 164.5,13.96 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="162" x2="343" y1="36.2569" y2="36.2569"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="166" y="28.9551">ANIMAPET - Denúncia</text></g><g id="elem_denuncia"><ellipse cx="280.3073" cy="65.8215" fill="#F1F1F1" rx="72.3073" ry="16.8615" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="227.8073" y="69.569">Abrir denúncia</text></g><g id="elem_lista_denuncias"><ellipse cx="606.0075" cy="142.134" fill="#F1F1F1" rx="94.0075" ry="26.174" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="545.0075" y="137.7331">Listar denúncias</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="584.5075" y="154.03">feitas</text></g><g id="elem_avaliacao"><ellipse cx="606.2401" cy="295.0073" fill="#F1F1F1" rx="56.7401" ry="26.0473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="582.7401" y="289.7055">Avaliar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="574.2401" y="306.0024">denúncia</text></g><g id="elem_visualizar_pedidos_denuncias"><ellipse cx="280.7282" cy="144.178" fill="#F1F1F1" rx="102.7282" ry="26.218" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="213.7282" y="139.7771">Visualizar pedidos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="230.7282" y="156.074">de denúncias</text></g><g id="elem_denunciar"><ellipse cx="280.7401" cy="304.0073" fill="#F1F1F1" rx="56.7401" ry="26.0473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="251.7401" y="298.7055">Publicar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="248.7401" y="315.0024">denúncia</text></g><g id="elem_fechar_denuncia"><ellipse cx="280.495" cy="224.159" fill="#F1F1F1" rx="83.995" ry="19.199" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="216.2335" y="227.0956">Cancelar denúncia</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="60.5" cy="15.46" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M60.5,23.46 L60.5,50.46 M47.5,31.46 L73.5,31.46 M60.5,50.46 L47.5,65.46 M60.5,50.46 L73.5,65.46 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="34.5" y="79.9551">Usuário</text></g><!--MD5=[2d618d598e29dda030d9070389e4a841]
+entity policia--><g id="elem_policia"><ellipse cx="606" cy="370.46" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M606,378.46 L606,405.46 M593,386.46 L619,386.46 M606,405.46 L593,420.46 M606,405.46 L619,420.46 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="584.5" y="434.9551">Polícia</text></g><!--MD5=[8c94394e5c3f33b18d90b377a15218c4]
+entity ong--><g id="elem_ong"><ellipse cx="60.5" cy="138.46" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M60.5,146.46 L60.5,173.46 M47.5,154.46 L73.5,154.46 M60.5,173.46 L47.5,188.46 M60.5,173.46 L73.5,188.46 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="6" y="202.9551">Atendente ONG</text></g><!--MD5=[512b3076a4b0091509cd853ecab93514]
+link denunciar to avaliacao--><g id="link_denunciar_avaliacao"><path d="M337.11,302.41 C394.8,300.81 484.75,298.31 544.27,296.65 " fill="none" id="denunciar-to-avaliacao" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="549.57,296.5,540.4702,292.7327,544.5717,296.6285,540.6758,300.73,549.57,296.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="417" y="295.0269">«include»</text></g><!--MD5=[dd271ebee7f21d8a835846b4006144a6]
+link fechar_denuncia to lista_denuncias--><g id="link_fechar_denuncia_lista_denuncias"><path d="M337.11,209.86 C392.21,195.9 476.73,174.47 536.06,159.43 " fill="none" id="fechar_denuncia-lista_denuncias" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="414" y="170.0269">«extends»</text></g><!--MD5=[dbfaa73799cf99621fdf7fec66fea666]
+link user to denuncia--><g id="link_user_denuncia"><path d="M86.51,47.37 C117.15,50.32 170.27,55.44 213.03,59.56 " fill="none" id="user-denuncia" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2c22b31685c6d494415eed09a9061be2]
+link user to lista_denuncias--><g id="link_user_lista_denuncias"><path d="M86.51,38.5 C102.99,34.58 125.13,29.96 145,27.96 C250.25,17.35 280.2,6 383,30.96 C453.56,48.09 527.41,90.76 569.65,117.93 " fill="none" id="user-lista_denuncias" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[03094fff0706beab3df484e8e70ead04]
+link ong to visualizar_pedidos_denuncias--><g id="link_ong_visualizar_pedidos_denuncias"><path d="M115.11,162.06 C136.54,159.7 161.86,156.91 186.13,154.24 " fill="none" id="ong-visualizar_pedidos_denuncias" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8aedf5b3b95118ab460a834fd6048d24]
+link ong to denunciar--><g id="link_ong_denunciar"><path d="M92.58,206.04 C109.21,224.41 130.97,245.52 154,259.96 C177.18,274.49 205.79,285 229.84,292.09 " fill="none" id="ong-denunciar" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[79d2a298f81d49cb5aff8afb363799d7]
+link denunciar to policia--><g id="link_denunciar_policia"><path d="M328.54,317.92 C397.8,338.47 524.88,376.18 579.24,392.31 " fill="none" id="denunciar-to-policia" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="584.26,393.81,576.7802,387.4028,579.4689,392.3798,574.4919,395.0686,584.26,393.81" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1915540755d3874aa7e6022070f6d6ca]
+@startuml denuncia
+
+left to right direction
+
+actor "Usuário" as user
+actor "Polícia" as policia
+actor "Atendente ONG" as ong
+
+package "ANIMAPET - Denúncia" {
+
+    usecase "Abrir denúncia" as denuncia
+    usecase "Listar denúncias \nfeitas" as lista_denuncias
+    usecase "Avaliar \ndenúncia" as avaliacao
+    usecase "Visualizar pedidos \nde denúncias" as visualizar_pedidos_denuncias
+    usecase "Publicar \ndenúncia" as denunciar
+    usecase "Cancelar denúncia" as fechar_denuncia
+
+    denunciar ..> avaliacao : <<include>>
+    fechar_denuncia .. lista_denuncias : <<extends>>
+
+}
+
+user - - denuncia
+user - - lista_denuncias
+ong - - visualizar_pedidos_denuncias
+ong - - denunciar
+denunciar - -> policia
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="266px" preserveAspectRatio="none" style="width:1107px;height:266px;background:#FFFFFF;" version="1.1" viewBox="0 0 1107 266" width="1107px" zoomAndPan="magnify"><defs/><g><!--MD5=[b8909f01145455ab1e86d13a896ffe02]
+cluster Cuidados--><g id="cluster_Cuidados"><path d="M129.5,6 L203.5,6 A3.75,3.75 0 0 1 206,8.5 L213,28.2969 L1097.5,28.2969 A2.5,2.5 0 0 1 1100,30.7969 L1100,256.5 A2.5,2.5 0 0 1 1097.5,259 L129.5,259 A2.5,2.5 0 0 1 127,256.5 L127,8.5 A2.5,2.5 0 0 1 129.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="127" x2="213" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="131" y="20.9951">Cuidados</text></g><g id="elem_ucSCP"><ellipse cx="251.6701" cy="189.134" fill="#F1F1F1" rx="108.6701" ry="24.134" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="160.1701" y="191.9807">Solicitar Consulta para PET</text></g><g id="elem_ucVS"><ellipse cx="251.6728" cy="61.8346" fill="#F1F1F1" rx="89.6728" ry="20.3346" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="181.1728" y="64.6812">Visualizar Solicitação</text></g><g id="elem_ucAC"><ellipse cx="612.9263" cy="60.7853" fill="#F1F1F1" rx="84.4263" ry="19.2853" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="548.305" y="63.6739">Agendar consultas</text></g><g id="elem_ucBIP"><ellipse cx="971.9079" cy="65.7816" fill="#F1F1F1" rx="111.9079" ry="24.7816" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="876.9079" y="68.6283">Buscar informações de PET</text></g><g id="elem_ucSAD"><ellipse cx="613.0617" cy="216.2123" fill="#F1F1F1" rx="124.0617" ry="27.2123" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="505.0617" y="219.059">Solicitar Alteração de Data/Hora</text></g><g id="elem_ucCC"><ellipse cx="613.212" cy="134.9424" fill="#F1F1F1" rx="82.712" ry="18.9424" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="550.0208" y="138.0215">Cancelar Consulta</text></g><!--MD5=[49c76023225f6fc4694b8dc9abbb4939]
+entity vet--><g id="elem_vet"><ellipse cx="43" cy="32.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M43,40.5 L43,67.5 M30,48.5 L56,48.5 M43,67.5 L30,82.5 M43,67.5 L56,82.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="6" y="96.9951">Veterinário</text></g><!--MD5=[f9cdecad84bfaf826fea733b4da84f85]
+entity pessoa--><g id="elem_pessoa"><ellipse cx="43" cy="159.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M43,167.5 L43,194.5 M30,175.5 L56,175.5 M43,194.5 L30,209.5 M43,194.5 L56,209.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="17.5" y="223.9951">Pessoa</text></g><!--MD5=[f60c2f692229fe225114b2d102c5e603]
+link vet to ucVS--><g id="link_vet_ucVS"><path d="M80.44,62 C103.02,62 133.07,62 161.62,62 " fill="none" id="vet-ucVS" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[272fb11b4e663e3e0250739cd3245325]
+reverse link ucVS to ucAC--><g id="link_ucVS_ucAC"><path d="M346.43,61.74 C402.86,61.58 474.02,61.38 528.47,61.23 " fill="none" id="ucVS-backto-ucAC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="341.37,61.75,350.3814,65.7243,346.37,61.7357,350.3585,57.7243,341.37,61.75" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="391" y="58.0669">«extends»</text></g><!--MD5=[d7c255a5af484e893c4faf3e9085f57f]
+reverse link ucAC to ucBIP--><g id="link_ucAC_ucBIP"><path d="M702.86,62.24 C750.45,62.91 809.52,63.74 860.1,64.45 " fill="none" id="ucAC-backto-ucBIP" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="697.7,62.17,706.6537,66.2726,702.6997,62.2271,706.7451,58.2731,697.7,62.17" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="768" y="60.0669">«include»</text></g><!--MD5=[e960ac8c887f63cf04fce572f31b411e]
+link pessoa to ucSCP--><g id="link_pessoa_ucSCP"><path d="M68.91,189 C87.79,189 115.15,189 142.92,189 " fill="none" id="pessoa-ucSCP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cc17e5c1d3625c673f872ef76fd8a3a9]
+reverse link ucSCP to ucSAD--><g id="link_ucSCP_ucSAD"><path d="M354.48,199.88 C366.45,201.01 378.49,202.08 390,203 C423.1,205.65 459.01,207.99 492.11,209.92 " fill="none" id="ucSCP-backto-ucSAD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="349.36,199.39,357.9435,204.2195,354.3378,199.8607,358.6966,196.255,349.36,199.39" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="391" y="199.0669">«extends»</text></g><!--MD5=[6e8ed00ea39f6af65b97e995c0c4af92]
+reverse link ucSCP to ucCC--><g id="link_ucSCP_ucCC"><path d="M346.99,174.81 C408.68,165.54 487.81,153.65 543.48,145.29 " fill="none" id="ucSCP-backto-ucCC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="341.83,175.58,351.3245,178.198,346.7745,174.8369,350.1356,170.2868,341.83,175.58" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="391" y="155.0669">«extends»</text></g><!--MD5=[be277576d6965c580075a167be52fe53]
+@startuml UCCuidados
+left to right direction
+
+actor Veterinário as vet
+actor Pessoa as pessoa
+
+package Cuidados {
+
+  usecase "Solicitar Consulta para PET" as ucSCP
+  usecase "Visualizar Solicitação" as ucVS
+  usecase "Agendar consultas" as ucAC
+  usecase "Buscar informações de PET" as ucBIP
+  usecase "Solicitar Alteração de Data/Hora" as ucSAD
+  usecase "Cancelar Consulta" as ucCC
+  
+}
+
+vet - - ucVS
+ucVS <- - ucAC : << extends >>
+ucAC <.. ucBIP : << include >>
+pessoa - - ucSCP
+ucSCP <- - ucSAD : << extends >>
+ucSCP <- - ucCC : << extends >>
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

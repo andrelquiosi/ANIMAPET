@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="542px" preserveAspectRatio="none" style="width:1579px;height:542px;background:#FFFFFF;" version="1.1" viewBox="0 0 1579 542" width="1579px" zoomAndPan="magnify"><defs/><g><!--MD5=[a3b8df8da399f435baec63112ae7c261]
+cluster Doação/Auxílio--><g id="cluster_Doação/Auxílio"><path d="M168.5,6 L284.5,6 A3.75,3.75 0 0 1 287,8.5 L294,28.2969 L1351.5,28.2969 A2.5,2.5 0 0 1 1354,30.7969 L1354,515.5 A2.5,2.5 0 0 1 1351.5,518 L168.5,518 A2.5,2.5 0 0 1 166,515.5 L166,8.5 A2.5,2.5 0 0 1 168.5,6 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="166" x2="294" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115" x="170" y="20.9951">Doação/Auxílio</text></g><g id="elem_ucVSD"><ellipse cx="299.9902" cy="466.7793" fill="#F1F1F1" rx="117.9902" ry="26.2793" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="222.4902" y="462.3784">Visualizar solicitações</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="260.4902" y="478.6753">de doação</text></g><g id="elem_ucRD"><ellipse cx="616.1676" cy="469.1335" fill="#F1F1F1" rx="76.1676" ry="17.6335" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="558.6676" y="472.8811">Realizar doação</text></g><g id="elem_ucASD"><ellipse cx="1229.1316" cy="210.2263" fill="#F1F1F1" rx="109.1316" ry="24.2263" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="1137.1316" y="213.073">Abrir solicitação de doação</text></g><g id="elem_ucSDM"><ellipse cx="875.2482" cy="64.9496" fill="#F1F1F1" rx="107.7482" ry="23.9496" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="784.7482" y="67.7963">Solicitar doação monetária</text></g><g id="elem_ucSDP"><ellipse cx="874.9443" cy="149.1889" fill="#F1F1F1" rx="111.4443" ry="24.6889" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="780.4443" y="152.0355">Solicitar doação de produto</text></g><g id="elem_ucSDA"><ellipse cx="875.1316" cy="233.2263" fill="#F1F1F1" rx="109.1316" ry="24.2263" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="783.1316" y="236.073">Solicitar doação alimentícia</text></g><g id="elem_ucEFE"><ellipse cx="875.1701" cy="316.134" fill="#F1F1F1" rx="108.6701" ry="24.134" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="783.6701" y="318.9807">Escolher forma de entrega</text></g><g id="elem_ucAS"><ellipse cx="1229.1963" cy="287.9393" fill="#F1F1F1" rx="80.1963" ry="18.4393" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1168.1039" y="291.2979">Avaliar solicitação</text></g><g id="elem_ucLS"><ellipse cx="874.9455" cy="394.1891" fill="#F1F1F1" rx="81.4455" ry="18.6891" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="812.8109" y="397.409">Liberar solicitação</text></g><g id="elem_ucRS"><ellipse cx="1228.995" cy="377.199" fill="#F1F1F1" rx="83.995" ry="19.199" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1164.7335" y="380.1356">Rejeitar solicitação</text></g><g id="elem_ucCRD"><ellipse cx="874.8195" cy="474.7639" fill="#F1F1F1" rx="121.8195" ry="26.7639" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="792.8195" y="470.363">Confirmar recebimento</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="835.3195" y="486.6599">de doação</text></g><g id="elem_ucES"><ellipse cx="1229.0998" cy="467.22" fill="#F1F1F1" rx="86.5998" ry="19.72" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1162.0998" y="470.0666">Encerrar solicitação</text></g><!--MD5=[8c94394e5c3f33b18d90b377a15218c4]
+entity ong--><g id="elem_ong"><ellipse cx="1517.5" cy="400.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1517.5,408.5 L1517.5,435.5 M1504.5,416.5 L1530.5,416.5 M1517.5,435.5 L1504.5,450.5 M1517.5,435.5 L1530.5,450.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1463" y="464.9951">Atendente ONG</text></g><!--MD5=[9e99fae5e559954a3735b2d73729dd0f]
+entity doador--><g id="elem_doador"><ellipse cx="31.5" cy="437.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M31.5,445.5 L31.5,472.5 M18.5,453.5 L44.5,453.5 M31.5,472.5 L18.5,487.5 M31.5,472.5 L44.5,487.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="6" y="501.9951">Doador</text></g><!--MD5=[334871de49d3b6dc2700779f7a8585fd]
+entity dest--><g id="elem_dest"><ellipse cx="1517.5" cy="180.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1517.5,188.5 L1517.5,215.5 M1504.5,196.5 L1530.5,196.5 M1517.5,215.5 L1504.5,230.5 M1517.5,215.5 L1530.5,230.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1476" y="244.9951">Destinatário</text></g><!--MD5=[f34377803aae6aa36e0f2b23c7b406ee]
+reverse link ucVSD to ucRD--><g id="link_ucVSD_ucRD"><path d="M423.62,467.78 C462.75,468.03 504.88,468.3 539.63,468.52 " fill="none" id="ucVSD-backto-ucRD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="418.37,467.75,427.347,471.8014,423.3699,467.7786,427.3927,463.8015,418.37,467.75" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="449" y="464.0669">«extend»</text></g><!--MD5=[f35e9477eb4342c04051930497e3449c]
+reverse link ucEFE to ucASD--><g id="link_ucEFE_ucASD"><path d="M945.06,295.2 C1008.6,276.07 1102.1,247.91 1163.99,229.28 " fill="none" id="ucEFE-backto-ucASD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="940.15,296.68,949.9205,297.9198,944.9383,295.2406,947.6175,290.2585,940.15,296.68" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1028" y="250.0669">«include»</text></g><!--MD5=[f861c75c10e8abf26a202843f22b82ab]
+link ucSDM to ucASD--><g id="link_ucSDM_ucASD"><path d="M936.38,84.83 C955.86,91.52 977.46,99.27 997,107 C1059.96,131.91 1130.89,164.18 1177.34,185.91 " fill="none" id="ucSDM-to-ucASD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1182.04,188.11,1175.5862,180.6704,1177.512,185.9893,1172.1931,187.9151,1182.04,188.11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1028.5" y="116.0669">«extend»</text></g><!--MD5=[624bd6bc3bc3f1f7d3f1553ab17469da]
+link ucSDP to ucASD--><g id="link_ucSDP_ucASD"><path d="M963.01,164.08 C1016.16,173.29 1084.01,185.05 1137.75,194.36 " fill="none" id="ucSDP-to-ucASD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1142.9,195.25,1134.7031,189.7901,1137.9715,194.4072,1133.3545,197.6757,1142.9,195.25" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1028.5" y="172.0669">«extend»</text></g><!--MD5=[643982f86634c4aa2410ae16a174f563]
+link ucSDA to ucASD--><g id="link_ucSDA_ucASD"><path d="M979.71,226.22 C1023.55,223.36 1074.63,220.02 1119.02,217.12 " fill="none" id="ucSDA-to-ucASD" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1124.12,216.79,1114.8764,213.3905,1119.1308,217.1188,1115.4025,221.3732,1124.12,216.79" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1028.5" y="216.0669">«extend»</text></g><!--MD5=[747579edc0f45ea067012f0c794727b7]
+link ucASD to ucAS--><g id="link_ucASD_ucAS"><path d="M1229,234.14 C1229,245.9 1229,257.66 1229,269.41 " fill="none" id="ucASD-ucAS" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[caae55b7db985583ada04dd5e322d8e7]
+link ucLS to ucAS--><g id="link_ucLS_ucAS"><path d="M924.94,379.26 C990.62,359.48 1106.83,324.49 1174.67,304.06 " fill="none" id="ucLS-to-ucAS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1179.47,302.61,1169.6985,301.3782,1174.6828,304.0533,1172.0077,309.0377,1179.47,302.61" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1028.5" y="328.0669">«extend»</text></g><!--MD5=[5f3780e268d5986b1663b96a43e7643b]
+link ucRS to ucAS--><g id="link_ucRS_ucAS"><path d="M1229,357.69 C1229,344.21 1229,326.14 1229,311.77 " fill="none" id="ucRS-to-ucAS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1229,306.66,1225,315.66,1229,311.66,1233,315.66,1229,306.66" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1187.5" y="336.8169">«extend»</text></g><!--MD5=[79c6385c270f6837308030a9fc1a0af9]
+reverse link ucES to ucRS--><g id="link_ucES_ucRS"><path d="M1229,442.29 C1229,427.75 1229,409.64 1229,396.18 " fill="none" id="ucES-backto-ucRS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1229,447.47,1233,438.47,1229,442.47,1225,438.47,1229,447.47" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1187" y="426.3169">«include»</text></g><!--MD5=[9c306506989ed9e712b67a32462b141f]
+link ucRD to ucCRD--><g id="link_ucRD_ucCRD"><path d="M691.68,470.74 C711.09,471.2 732.51,471.7 753.63,472.19 " fill="none" id="ucRD-ucCRD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b383dbb00f3479931ef04607f2e87582]
+link ucCRD to ucES--><g id="link_ucCRD_ucES"><path d="M996.65,472.26 C1042.83,471.21 1094.68,470.03 1137.57,469.06 " fill="none" id="ucCRD-to-ucES" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1142.75,468.94,1133.6609,465.1467,1137.7513,469.0543,1133.8438,473.1446,1142.75,468.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1028" y="467.0669">«include»</text></g><!--MD5=[cf3b623842520e648b2e598c24260297]
+link doador to ucVSD--><g id="link_doador_ucVSD"><path d="M57.09,467 C85.76,467 135.2,467 181.94,467 " fill="none" id="doador-ucVSD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6366e8c401acec2882635471129c7c5d]
+link ucCRD to ong--><g id="link_ucCRD_ong"><path d="M960.59,494.24 C1058.48,513.27 1223.94,535.36 1362,504 C1397.38,495.96 1434.13,478.78 1462.91,462.99 " fill="none" id="ucCRD-ong" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[56a090afa9fb45a7b489de233b0d1436]
+link ucAS to ong--><g id="link_ucAS_ong"><path d="M1273.81,303.35 C1299.86,312.94 1333.3,326.09 1362,340 C1396.5,356.72 1433.67,378.26 1462.9,396.07 " fill="none" id="ucAS-ong" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[087404aeb2fada399a2296583e7c8496]
+link ucASD to dest--><g id="link_ucASD_dest"><path d="M1338.31,210 C1386.33,210 1439.92,210 1475.67,210 " fill="none" id="ucASD-dest" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1f1f8be25eb16ab0eb97fa7ebf359405]
+@startuml Context de Doacao/Auxilio
+
+left to right direction
+
+actor "Atendente ONG" as ong
+actor "Doador" as doador
+actor "Destinatário" as dest
+
+package "Doação/Auxílio" {
+    usecase "Visualizar solicitações\nde doação" as ucVSD
+    usecase "Realizar doação" as ucRD
+    
+    usecase "Abrir solicitação de doação" as ucASD
+    usecase "Solicitar doação monetária" as ucSDM
+    usecase "Solicitar doação de produto" as ucSDP
+    usecase "Solicitar doação alimentícia" as ucSDA
+    usecase "Escolher forma de entrega" as ucEFE
+
+    usecase "Avaliar solicitação" as ucAS
+    usecase "Liberar solicitação" as ucLS
+    usecase "Rejeitar solicitação" as ucRS
+
+    usecase "Confirmar recebimento\nde doação" as ucCRD
+    usecase "Encerrar solicitação" as ucES
+    
+    ucVSD <.. ucRD : << extend >>
+
+    ucEFE <.. ucASD : << include >>
+    ucSDM ..> ucASD : << extend >>
+    ucSDP ..> ucASD : << extend >>
+    ucSDA ..> ucASD : << extend >>
+
+    ucAS -left- ucASD
+
+    ucLS ..> ucAS : << extend >>
+    ucRS .right.> ucAS : << extend >>
+
+    ucRS .left.> ucES : << include >>
+    ucRD - - ucCRD
+    ucCRD ..> ucES : << include >>
+}
+
+doador - - - ucVSD
+
+ucCRD - - - ong
+ucAS - - - ong
+ucASD - - - dest
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>
