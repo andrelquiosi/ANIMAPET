@@ -6,7 +6,7 @@ actor "Usuário" as user
 actor "Polícia" as policia
 actor "Atendente ONG" as ong
 
-package "ANIMAPET - Denúncia" {
+package "Denúncia" {
 
     usecase "Abrir denúncia" as denuncia
     usecase "Listar denúncias \nfeitas" as lista_denuncias

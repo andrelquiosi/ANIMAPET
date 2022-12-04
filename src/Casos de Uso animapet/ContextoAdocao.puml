@@ -7,7 +7,7 @@ actor "Doador" as doador
 actor "Atendente" as atendente
 
 
-package "ANIMAPET - Adoção" {
+package "Adoção" {
 
     usecase "Visualizar pet \npara adoção" as visualizar
     usecase "Reservar Pet" as reservar
